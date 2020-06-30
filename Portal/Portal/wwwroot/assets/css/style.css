@@ -2246,18 +2246,16 @@ img {
 
 .intro-header {
     height: 40em;
-    width: 100%;
-    background-color:red;
-    /*background-image: url("../img/blog/blog-5.jpg");*/
-    background-size:cover;
+    background-color: red;
+    background-image: url("../img/bg/beach.jpg");
+    background-size: cover;
     background-position: center;
     overflow: hidden;
-    padding: 0 15px;
 }
-    .intro-header > .opacity-div {
-        width: 100%;
+    .intro-header > .overlay {
         height: 100%;
-        /*background-color: rgba(0, 0, 0, 0.66);*/
+        width: 100%;
+        background-color: rgba(0,0,0,.8);
     }
 
 .intro-bg {
