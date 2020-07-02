@@ -312,6 +312,10 @@ img {
     padding: 180px 0;
 }
 
+.pall_70 {
+    padding: 70px;
+}
+
 /*BUTTONS*/
 .btn {
     font-size: 15px;
@@ -319,7 +323,7 @@ img {
     color: #fff;
     line-height: 1;
     text-align: center;
-    padding: 18px 30px;
+    padding: 10px 20px;
     border: 0 none;
     border-radius: 6px;
     outline: 0 none;
@@ -2226,18 +2230,146 @@ img {
     .preview .welcome-area {
         background-position: unset;
     }
+    /*    ipad*/
+    .intro-header {
+        height: 35em !important;
+    }
+
+        .intro-header > .overlay {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,.8);
+        }
+
+    .intro-header-title {
+        font-size: 2em;
+    }
+
+    .fill-div {
+        padding: 0 !important;
+    }
+
+    .pall_70 {
+        padding: 40px;
+    }
+
+    .sm-screen-col {
+        padding: 0 !important;
+    }
+
+    .intro-content {
+        padding: 10px 20px !important;
+    }
+
+    .intro-span-raise {
+        font-size: 20px !important;
+    }
+
+    .follow-button {
+        width: 45% !important;
+    }
+
+    /*.fill-div img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 50% !important;
+    }*/
 }
 
-@media (max-width: 767px) {
+@media (max-width: 795px) {
     .preview .welcome-area {
         height: 500px !important;
         padding-top: 0;
     }
+    /*    mobile*/
+    .intro-header {
+        height: 50em !important;
+    }
+
+        .intro-header > .overlay {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,.8);
+        }
+
+    .fill-div {
+        padding: 0 !important;
+    }
+
+    .pall_70 {
+        padding: 40px;
+    }
+
+    .sm-screen-col {
+        padding: 0 !important;
+    }
+
+    .intro-content {
+        padding: 10px 20px !important;
+    }
+
+    .intro-span-raise {
+        font-size: 20px !important;
+    }
+
+    .follow-button {
+        width: 45% !important;
+    }
 }
+
+@media only screen and (device-width : 414px){
+    .preview .welcome-area {
+        height: 500px !important;
+        padding-top: 0;
+    }
+    /*    mobile*/
+    .intro-header {
+        height: 52em !important;
+    }
+
+        .intro-header > .overlay {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,.8);
+        }
+
+    .fill-div {
+        padding: 0 !important;
+    }
+
+    .pall_70 {
+        padding: 40px;
+    }
+
+    .sm-screen-col {
+        padding: 0 !important;
+    }
+
+    .intro-content {
+        padding: 10px 20px !important;
+    }
+
+    .intro-span-raise {
+        font-size: 20px !important;
+    }
+
+    .follow-button {
+        width: 45% !important;
+    }
+}
+
 
 /*Custom*/
 .height-6em {
     height: 6em;
+}
+
+.height-100p {
+    height: 100%;
+}
+
+.width-100p {
+    width: 100%;
 }
 
 .my-container {
@@ -2263,15 +2395,76 @@ img {
     height: auto;
 }
 
-.intro-thumbnail-div {
-    width: 40em;
-    height: 25em;
+.intro-content {
+    padding: 10px 40px;
+}
+
+.intro-span {
+    font-weight: 500;
+}
+    .intro-span .success-text {
+        color: #20c86d !important
+    }
+
+.font-big {
+    font-size: 30px;
+}
+
+.font-medium {
+    font-size: 18px;
 }
 
 .no-padding-top {
     padding-top: 0 !important;
 }
 
-/*.bg-black {
-    background-color: rgba(0, 0, 0, 0.66);
-}*/
+.fill-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+    .fill-div img {
+        flex-shrink: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+.btn-outline {
+    color: #8c3ee9;
+    background: transparent !important;
+    border: 2px #8c3ee9 solid !important;
+}
+
+.infoNumber-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-wrap: anywhere;
+    margin: 0 !important;
+}
+
+    .infoNumber-table td {
+        border: 5px solid transparent;
+    }
+
+    .infoNumber-table td a {
+        color: white;
+        /*border-color: white !important;*/
+    }
+
+    .infoNumber-table tr:first-child td {
+        border-top: 0;
+    }
+
+    .infoNumber-table tr td:first-child {
+        border-left: 0;
+    }
+
+    .infoNumber-table tr:last-child td {
+        border-bottom: 0;
+    }
+
+    .infoNumber-table tr td:last-child {
+        border-right: 0;
+    }
