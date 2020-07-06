@@ -2178,10 +2178,44 @@ img {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4)
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .countdown-container {
         margin: 0 6px;
         padding: 0.5rem;
+    }
+    /*    ipad*/
+    .intro-header {
+        height: 40em !important;
+    }
+
+        .intro-header > .overlay {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0,0,0,.8);
+        }
+
+    .fill-div {
+        padding: 0 !important;
+    }
+
+    .pall_70 {
+        padding: 40px;
+    }
+
+    .sm-screen-col {
+        padding: 0 !important;
+    }
+
+    .intro-content {
+        padding: 10px 20px !important;
+    }
+
+    .intro-span-raise {
+        font-size: 20px !important;
+    }
+
+    .follow-button {
+        width: 45% !important;
     }
 }
 
