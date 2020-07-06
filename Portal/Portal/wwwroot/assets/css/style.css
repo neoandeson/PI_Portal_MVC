@@ -313,7 +313,7 @@ img {
 }
 
 .pall_70 {
-    padding: 70px;
+    padding: 70px 0;
 }
 
 /*BUTTONS*/
@@ -2184,22 +2184,12 @@ img {
         padding: 0.5rem;
     }
     /*    ipad*/
-    .intro-header {
-        height: 40em !important;
-    }
-
-        .intro-header > .overlay {
-            height: 100%;
-            width: 100%;
-            background-color: rgba(0,0,0,.8);
-        }
-
     .fill-div {
         padding: 0 !important;
     }
 
     .pall_70 {
-        padding: 40px;
+        padding: 40px 40px;
     }
 
     .sm-screen-col {
@@ -2265,15 +2255,6 @@ img {
         background-position: unset;
     }
     /*    ipad*/
-    .intro-header {
-        height: 35em !important;
-    }
-
-        .intro-header > .overlay {
-            height: 100%;
-            width: 100%;
-            background-color: rgba(0,0,0,.8);
-        }
 
     .intro-header-title {
         font-size: 2em;
@@ -2284,7 +2265,7 @@ img {
     }
 
     .pall_70 {
-        padding: 40px;
+        padding: 40px 40px;
     }
 
     .sm-screen-col {
@@ -2316,22 +2297,12 @@ img {
         padding-top: 0;
     }
     /*    mobile*/
-    .intro-header {
-        height: 50em !important;
-    }
-
-        .intro-header > .overlay {
-            height: 100%;
-            width: 100%;
-            background-color: rgba(0,0,0,.8);
-        }
-
     .fill-div {
         padding: 0 !important;
     }
 
     .pall_70 {
-        padding: 40px;
+        padding: 40px 40px;
     }
 
     .sm-screen-col {
@@ -2357,22 +2328,12 @@ img {
         padding-top: 0;
     }
     /*    mobile*/
-    .intro-header {
-        height: 52em !important;
-    }
-
-        .intro-header > .overlay {
-            height: 100%;
-            width: 100%;
-            background-color: rgba(0,0,0,.8);
-        }
-
     .fill-div {
         padding: 0 !important;
     }
 
     .pall_70 {
-        padding: 40px;
+        padding: 40px 40px;
     }
 
     .sm-screen-col {
@@ -2407,13 +2368,13 @@ img {
 }
 
 .my-container {
-    max-width: 120em !important;
+    max-width: 100em !important;
 }
 
 .intro-header {
-    height: 40em;
-    background-color: red;
-    background-image: url("../img/bg/beach.jpg");
+    min-height: 40em;
+/*    background-color: red;*/
+/*    background-image: url("../img/bg/beach.jpg");*/
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -2421,7 +2382,7 @@ img {
     .intro-header > .overlay {
         height: 100%;
         width: 100%;
-        background-color: rgba(0,0,0,.8);
+/*        background-color: rgba(0,0,0,.7);*/
     }
 
 .intro-bg {
@@ -2448,6 +2409,14 @@ img {
     font-size: 18px;
 }
 
+.min-invest > span:nth-child(2) {
+    text-decoration: underline;
+}
+
+.min-invest > span {
+    font-size: 15px;
+}
+
 .no-padding-top {
     padding-top: 0 !important;
 }
@@ -2471,6 +2440,33 @@ img {
     border: 2px #8c3ee9 solid !important;
 }
 
+.bg-purple {
+    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%) !important;
+}
+
+#raised-value {
+    color: #7a53e6;
+    font-size: 40px;
+}
+
+.bordered-button:hover {
+    color: white !important;
+    background-color: #7c4fe0 !important;
+}
+
+.filled-button:hover {
+    color: #7c4fe0 !important;
+    background: white !important;
+    border: 2px #8c3ee9 solid !important;
+}
+
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: #7c4fe0;
+}
+
 .infoNumber-table {
     width: 100%;
     border-collapse: collapse;
@@ -2483,7 +2479,7 @@ img {
     }
 
     .infoNumber-table td a {
-        color: white;
+/*        color: white;*/
         /*border-color: white !important;*/
     }
 
